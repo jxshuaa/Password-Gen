@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "description": "A password generator with random and memorable options",
     "main": "server.js",
+    "engines": {
+      "node": "20.x"
+    },
+
     "scripts": {
       "start": "node server.js"
     },
