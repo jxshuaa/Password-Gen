@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh's Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Josh's Password Generator</h1>
+        <div class="password-display" id="passwordDisplay">Your password will appear here</div>
+        <div class="controls">
+            <label for="passwordType">Password Type:</label>
+            <select id="passwordType">
+                <option value="random">Random</option>
+                <option value="memorable">Memorable</option>
+            </select>
+            <label for="complexity">Complexity:</label>
+            <input type="range" id="complexity" min="1" max="10" value="5" onchange="updatePassword()">
+            <label for="specialChars">Include Special Characters:</label>
+            <input type="checkbox" id="specialChars" onchange="updatePassword()">
+            <button id="generateBtn">Generate Password</button>
+            <button id="copyBtn">Copy to Clipboard</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Josh's Password Generator</p>
+        <p><a href="mailto:me@jxshua.dev">Contact Me</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

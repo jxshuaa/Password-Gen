@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #b30000;
+}
+
+.password-display {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #b30000;
+    border-radius: 5px;
+    background-color: #ffe6e6;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls label {
+    margin: 10px 0 5px;
+}
+
+.controls select,
+.controls input[type="range"],
+.controls input[type="checkbox"],
+.controls button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #b30000;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.controls button {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+}
+
+.controls button:hover {
+    background-color: #800000;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #b30000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "password-generator",
+    "version": "1.0.0",
+    "description": "A password generator with random and memorable options",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "password-generator": "^2.3.2"
+    }
+  }
+  
